@@ -40,8 +40,27 @@ element.click()
 
 time.sleep(2)
 
-element = driver.find_element(By.XPATH, '//*[@id="customButtonDetailsHead"]')
+element = driver.find_element(By.XPATH, '//*[@id="mainmenua_econn_0"]/span/a')
+element.click()
 
-element_click = element.click()
+element = driver.find_element(By.XPATH, '//*[@id="mainmenua_econn_0"]/span/a/ul/li[3]')
+element.click()
+
 time.sleep(2)
-element_click.send_keys("/Users/BH-PCIT001/CV_Test.pdf")
+
+element = driver.find_element(By.XPATH, '//*[@id="fileNameSpan_9j5vv1d608b1cb55647399c36de56bad4c705"]')
+element.click()
+
+time.sleep(2)
+
+element = driver.find_element(By.XPATH, '/html/body/div[2]/div/div[2]/div[2]/div[3]/input[2]')
+element.click()
+
+time.sleep(2)
+element = driver.find_element(By.XPATH, '/html/body/div[13]/div[16]/div/form/div/div[1]/div/div[8]/input')
+element.click()
+
+
+
+
+
