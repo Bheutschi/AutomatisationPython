@@ -43,24 +43,23 @@ time.sleep(2)
 element = driver.find_element(By.XPATH, '//*[@id="mainmenua_econn_0"]/span/a')
 element.click()
 
+#clique sur le bouton Documents de la liste du bouton Browse
 element = driver.find_element(By.XPATH, '//*[@id="mainmenua_econn_0"]/span/a/ul/li[3]')
 element.click()
 
-time.sleep(2)
-
-element = driver.find_element(By.XPATH, '//*[@id="fileNameSpan_9j5vv1d608b1cb55647399c36de56bad4c705"]')
-element.click()
 
 time.sleep(2)
-
-element = driver.find_element(By.XPATH, '/html/body/div[2]/div/div[2]/div[2]/div[3]/input[2]')
+element = driver.find_element(By.XPATH, '//*[@id="314dl854ecc4d77ad4162b67cfc07d62db473"]/table/tbody/tr/td/table')
 element.click()
+# /html/body/div[2]/div/div[2]/div[2]/div[1]/div/div[2]/div[2]/div[3]/div/div[2]/table/tbody/tr/td/table/tbody/tr/td[1]
+# /html/body/div[2]/div/div[2]/div[2]/div[1]/div/div[2]/div[2]/div[3]/div/div[3]/table/tbody/tr/td/table/tbody/tr/td[1]
+# /html/body/div[2]/div/div[2]/div[2]/div[1]/div/div[2]/div[2]/div[3]/div/div[4]/table/tbody/tr/td/table/tbody/tr/td[1]
 
-time.sleep(2)
-element = driver.find_element(By.XPATH, '/html/body/div[13]/div[16]/div/form/div/div[1]/div/div[8]/input')
-element.click()
-
-
-
-
-
+# time.sleep(2)
+#
+# element = driver.find_element(By.XPATH, '/html/body/div[2]/div/div[2]/div[2]/div[3]/input[2]')
+# element.click()
+#
+# time.sleep(2)
+# element = driver.find_element(By.XPATH, '/html/body/div[13]/div[16]/div/form/div/div[1]/div/div[8]/input')
+# element.click()
